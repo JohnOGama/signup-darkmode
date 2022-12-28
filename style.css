@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+
+.box {
+    display: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 2px solid;
+    background: #ffffff;
+    transition: 1s ease background;
+}
+
+.box:hover {
+    background: #FFCCCB;
+}
+
+
+.box .items {
+    width: 350px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.box .items h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.box .items input {
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+    background:whitesmoke;
+}
+
+.box .items button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: .3s background, color;
+}
+
+.box .items button:hover {
+    background: red;
+    color: white;
+}
+
+.box .items p {
+    font-size: 13px;
+    cursor: pointer;
+    transition: .4s ease color;
+    color: black;
+}
+
+.box .items p:hover {
+    color: red;
+}
+
+i{
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 200;
+
+}
